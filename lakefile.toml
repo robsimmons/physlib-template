@@ -1,0 +1,15 @@
+name = "physlib-template"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["UsePhyslib", "UsePhyslibAlpha"]
+
+[[require]]
+name = "physlib"
+scope = "leanprover-community"
+rev = "v4.34.1"
+
+[[lean_lib]]
+name = "UsePhyslib"
+
+[[lean_lib]]
+name = "UsePhyslibAlpha"
